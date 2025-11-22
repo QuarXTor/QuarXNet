@@ -1,0 +1,11 @@
+[package]
+name = "quarxnet"
+version = "0.1.0"
+edition = "2021"
+
+[lib]
+name = "quarxnet"
+path = "src/lib.rs"
+
+[dependencies]
+quarxtor-core = { path = "../core-rs" }
